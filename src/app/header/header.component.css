@@ -1,0 +1,33 @@
+body {
+      margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar .subscribe-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+.container {
+    padding: 40px 20px;
+    text-align: center;
+}

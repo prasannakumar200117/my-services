@@ -1,0 +1,43 @@
+.subscribe-main {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.subscribe-main h1 {
+    margin-bottom: 20px;
+}
+.subscribe-main p {
+    margin-bottom: 30px;
+    color: #666;
+}
+.subscribe-main .subscribe-now {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+.subscribe-aside {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+.subscribe-aside p {
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
+}
+.subscribe-aside .subscribe-now {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
