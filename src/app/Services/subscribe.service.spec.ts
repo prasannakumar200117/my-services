@@ -1,16 +1,15 @@
-import { TestBed } from '@angular/core/testing';
+import { Injectable } from '@angular/core';
 
-import { SubscribeService } from './subscribe.service';
+@Injectable()
+export class SubscribeService{
 
-describe('SubscribeService', () => {
-  let service: SubscribeService;
-
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(SubscribeService);
-  });
-
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
-});
+    OnSubscribeClicked(type: string){
+        //ADD USER TO DATABASE
+    
+        //SEND EMAIL WITH SUBSCRIPTION DETAIL
+    
+        //ALLOW USER TO ACCESS THE SERVICES
+    
+        alert('Thank you for your '+type+' subscription. You can access the services now.');
+    }
+}

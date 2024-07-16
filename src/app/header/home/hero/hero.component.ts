@@ -1,18 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { SubscribeService } from '../../../Services/subscribe.service';
 
 @Component({
   selector: 'app-hero',
-  templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css',
-  providers : [SubscribeService]
+  templateUrl: './hero.component.html'
 })
 export class HeroComponent {
 
-  constructor( private subService :  SubscribeService) {
-    
-  }
-  onSubscribe() {    
-    this.subService.onSubscribeClicked("quarterly");
+  //1. HOW TO PROVIDE DEPENDENCY
+  // constructor(private subService: SubscribeService){
+
+  // }
+
+  subService = inject(SubscribeService);
+
+  OnSubscribe(){
+    this.subService.onSubscribeClicked('yearly');
   }
 }
